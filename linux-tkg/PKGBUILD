@@ -284,11 +284,11 @@ hackheaders() {
 }
 
 source /dev/stdin <<EOF
-package_${pkgbase}() {
+package_linux513-tkg-cacule() {
 hackbase
 }
 
-package_${pkgbase}-headers() {
+package_linux513-tkg-cacule-headers() {
 hackheaders
 }
 EOF
