@@ -57,8 +57,8 @@ if [ -n "$_custom_pkgbase" ]; then
 else
   pkgbase=linux"${_basever}"-tkg-"${_cpusched}"${_compiler_name}
 fi
-pkgname=("${pkgbase}" "${pkgbase}-headers")
-pkgver="${_basekernel}"."${_sub}"
+pkgname=("linux513-tkg-cacule" "linux513-tkg-cacule-headers")
+pkgver="5.13.12"
 pkgrel=192
 pkgdesc='Linux-tkg'
 arch=('x86_64') # no i686 in here
